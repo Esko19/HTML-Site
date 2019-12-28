@@ -6,6 +6,8 @@ background: aliceblue url(images/arrow.png) 2% 50% no-repeat;
 border: 2px dashed #b2b2b2;
 padding: 0;
 margin-top: 3px;
+
+
 }
 
    #nav
@@ -85,10 +87,12 @@ body {
   aside {
     display: inline-block;
     width: 360px;
+    height: 1272px;
     vertical-align: top;
     padding: 0 0 0 8px;
     box-sizing: border-box;
     background-color: aliceblue;
+    overflow: scroll;
   }
 
   /* unvisited link */
@@ -116,11 +120,14 @@ a:link {
       margin-right: 12px;
   }
  
-  #p1 #pslike
+  #p1
   {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-style: bold;
       font-size: medium;
+      
+      
+      
       
   }
 
@@ -141,7 +148,7 @@ a:link {
     display: block;
     margin: 0;
     padding: 5px;
-    background-color: aliceblue; 
+    background-color: aliceblue;
     overflow: hidden;
   }
 
@@ -154,7 +161,6 @@ a:link {
 
   #pslike
   {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
       padding: 2px;
   }
 
@@ -167,7 +173,6 @@ a:link {
 
       
   }
-
   body, html {
     height: 100%;
   }
@@ -176,5 +181,7 @@ a:link {
           background-repeat:no-repeat;
          background-size:cover;
   } 
+
+
 
   
